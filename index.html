@@ -23,6 +23,11 @@
 
     <div class="container">
         <script>
+            var today = new Date();
+            var todayHtml = today.getFullYear() + '/' + (today.getMonth() + 1) + '/' + today.getDate();
+
+            document.write('<p class="date">' + todayHtml + '</p>')
+
         </script>
     </div>
 </body>
